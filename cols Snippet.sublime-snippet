@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@include column-count(3);
+@include column-gap($padding);
+]]></content>
+
+	<tabTrigger>cols</tabTrigger>
+
+	<scope>source.scss</scope>
+
+</snippet>
