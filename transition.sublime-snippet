@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[
-@include box-shadow(rgba(${1:black}, 0.3) ${2:0}px ${3:0}px ${4:0}px);
+	<content><![CDATA[@include transition-property(${1:width});
+@include transition-duration(${2:2}s);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bshad</tabTrigger>
+	<tabTrigger>trans</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scss</scope>
 </snippet>

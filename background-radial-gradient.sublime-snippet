@@ -1,9 +1,8 @@
 <snippet>
-	<content><![CDATA[
-@include box-shadow(rgba(${1:black}, 0.3) ${2:0}px ${3:0}px ${4:0}px);
+	<content><![CDATA[@include background-image(radial-gradient(${1:45px} ${2:45px}, ${3:aqua} ${4:10px}, ${5:#1e90ff} ${6:30px}));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bshad</tabTrigger>
+	<tabTrigger>rgrad</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scss</scope>
 </snippet>
