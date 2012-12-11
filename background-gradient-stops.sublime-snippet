@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[@include background-image(linear-gradient(${1:top}, #${2:fff}, #${3:ddd}));
+	<content><![CDATA[@include background-image(linear-gradient(#${1:aaa}, #${2:ddd} ${3:20}%, #${4:888} ${5:60}%, #${6:999}));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>lgrad</tabTrigger>
+	<tabTrigger>lgrads</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scss, source.sass</scope>
 </snippet>
