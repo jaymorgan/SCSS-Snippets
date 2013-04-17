@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[background: url(data:image/svg+xml;base64,${0:PASTE HERE}) no-repeat center center;
+]]></content>
+	<tabTrigger>b64</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

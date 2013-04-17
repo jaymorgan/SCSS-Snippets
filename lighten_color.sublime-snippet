@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[lighten(${1:orange}, ${2:10}%)]]></content>
+	<content><![CDATA[lighten(${1:TM_SELECTED_TEXT}, ${2:10}%)${0}]]></content>
 	<tabTrigger>lc</tabTrigger>
 	<scope>source.scss</scope>
 </snippet>
