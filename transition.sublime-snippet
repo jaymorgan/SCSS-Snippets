@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[@include transition-property(${1:width});
-@include transition-duration(${2:2}s);
+@include transition-duration(${2:.2}s);
+@include transition-timing-function(${3:ease-in-out});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>trans</tabTrigger>
